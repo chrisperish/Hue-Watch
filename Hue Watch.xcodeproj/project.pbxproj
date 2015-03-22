@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83C00D511ABF412300B7BE06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C00D501ABF412300B7BE06 /* main.m */; };
+		83C00D541ABF412300B7BE06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C00D531ABF412300B7BE06 /* AppDelegate.m */; };
+		83C00D571ABF412300B7BE06 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C00D561ABF412300B7BE06 /* FirstViewController.m */; };
+		83C00D5A1ABF412300B7BE06 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C00D591ABF412300B7BE06 /* SecondViewController.m */; };
+		83C00D5D1ABF412300B7BE06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C00D5B1ABF412300B7BE06 /* Main.storyboard */; };
+		83C00D5F1ABF412300B7BE06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C00D5E1ABF412300B7BE06 /* Images.xcassets */; };
+		83C00D621ABF412300B7BE06 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83C00D601ABF412300B7BE06 /* LaunchScreen.xib */; };
+		83C00D6E1ABF412300B7BE06 /* Hue_WatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C00D6D1ABF412300B7BE06 /* Hue_WatchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83C00D681ABF412300B7BE06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83C00D431ABF412300B7BE06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83C00D4A1ABF412300B7BE06;
+			remoteInfo = "Hue Watch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83C00D4B1ABF412300B7BE06 /* Hue Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hue Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C00D4F1ABF412300B7BE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C00D501ABF412300B7BE06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83C00D521ABF412300B7BE06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		83C00D531ABF412300B7BE06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		83C00D551ABF412300B7BE06 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		83C00D561ABF412300B7BE06 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		83C00D581ABF412300B7BE06 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		83C00D591ABF412300B7BE06 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		83C00D5C1ABF412300B7BE06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83C00D5E1ABF412300B7BE06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		83C00D611ABF412300B7BE06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		83C00D671ABF412300B7BE06 /* Hue WatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hue WatchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C00D6C1ABF412300B7BE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C00D6D1ABF412300B7BE06 /* Hue_WatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hue_WatchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83C00D481ABF412300B7BE06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C00D641ABF412300B7BE06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83C00D421ABF412300B7BE06 = {
+			isa = PBXGroup;
+			children = (
+				83C00D4D1ABF412300B7BE06 /* Hue Watch */,
+				83C00D6A1ABF412300B7BE06 /* Hue WatchTests */,
+				83C00D4C1ABF412300B7BE06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83C00D4C1ABF412300B7BE06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83C00D4B1ABF412300B7BE06 /* Hue Watch.app */,
+				83C00D671ABF412300B7BE06 /* Hue WatchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83C00D4D1ABF412300B7BE06 /* Hue Watch */ = {
+			isa = PBXGroup;
+			children = (
+				83C00D521ABF412300B7BE06 /* AppDelegate.h */,
+				83C00D531ABF412300B7BE06 /* AppDelegate.m */,
+				83C00D551ABF412300B7BE06 /* FirstViewController.h */,
+				83C00D561ABF412300B7BE06 /* FirstViewController.m */,
+				83C00D581ABF412300B7BE06 /* SecondViewController.h */,
+				83C00D591ABF412300B7BE06 /* SecondViewController.m */,
+				83C00D5B1ABF412300B7BE06 /* Main.storyboard */,
+				83C00D5E1ABF412300B7BE06 /* Images.xcassets */,
+				83C00D601ABF412300B7BE06 /* LaunchScreen.xib */,
+				83C00D4E1ABF412300B7BE06 /* Supporting Files */,
+			);
+			path = "Hue Watch";
+			sourceTree = "<group>";
+		};
+		83C00D4E1ABF412300B7BE06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83C00D4F1ABF412300B7BE06 /* Info.plist */,
+				83C00D501ABF412300B7BE06 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83C00D6A1ABF412300B7BE06 /* Hue WatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				83C00D6D1ABF412300B7BE06 /* Hue_WatchTests.m */,
+				83C00D6B1ABF412300B7BE06 /* Supporting Files */,
+			);
+			path = "Hue WatchTests";
+			sourceTree = "<group>";
+		};
+		83C00D6B1ABF412300B7BE06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83C00D6C1ABF412300B7BE06 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83C00D4A1ABF412300B7BE06 /* Hue Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83C00D711ABF412300B7BE06 /* Build configuration list for PBXNativeTarget "Hue Watch" */;
+			buildPhases = (
+				83C00D471ABF412300B7BE06 /* Sources */,
+				83C00D481ABF412300B7BE06 /* Frameworks */,
+				83C00D491ABF412300B7BE06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hue Watch";
+			productName = "Hue Watch";
+			productReference = 83C00D4B1ABF412300B7BE06 /* Hue Watch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83C00D661ABF412300B7BE06 /* Hue WatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83C00D741ABF412300B7BE06 /* Build configuration list for PBXNativeTarget "Hue WatchTests" */;
+			buildPhases = (
+				83C00D631ABF412300B7BE06 /* Sources */,
+				83C00D641ABF412300B7BE06 /* Frameworks */,
+				83C00D651ABF412300B7BE06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83C00D691ABF412300B7BE06 /* PBXTargetDependency */,
+			);
+			name = "Hue WatchTests";
+			productName = "Hue WatchTests";
+			productReference = 83C00D671ABF412300B7BE06 /* Hue WatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83C00D431ABF412300B7BE06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Perish LLC";
+				TargetAttributes = {
+					83C00D4A1ABF412300B7BE06 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					83C00D661ABF412300B7BE06 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 83C00D4A1ABF412300B7BE06;
+					};
+				};
+			};
+			buildConfigurationList = 83C00D461ABF412300B7BE06 /* Build configuration list for PBXProject "Hue Watch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83C00D421ABF412300B7BE06;
+			productRefGroup = 83C00D4C1ABF412300B7BE06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83C00D4A1ABF412300B7BE06 /* Hue Watch */,
+				83C00D661ABF412300B7BE06 /* Hue WatchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83C00D491ABF412300B7BE06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C00D5D1ABF412300B7BE06 /* Main.storyboard in Resources */,
+				83C00D621ABF412300B7BE06 /* LaunchScreen.xib in Resources */,
+				83C00D5F1ABF412300B7BE06 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C00D651ABF412300B7BE06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83C00D471ABF412300B7BE06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C00D5A1ABF412300B7BE06 /* SecondViewController.m in Sources */,
+				83C00D541ABF412300B7BE06 /* AppDelegate.m in Sources */,
+				83C00D571ABF412300B7BE06 /* FirstViewController.m in Sources */,
+				83C00D511ABF412300B7BE06 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C00D631ABF412300B7BE06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C00D6E1ABF412300B7BE06 /* Hue_WatchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83C00D691ABF412300B7BE06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83C00D4A1ABF412300B7BE06 /* Hue Watch */;
+			targetProxy = 83C00D681ABF412300B7BE06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83C00D5B1ABF412300B7BE06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83C00D5C1ABF412300B7BE06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83C00D601ABF412300B7BE06 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83C00D611ABF412300B7BE06 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83C00D6F1ABF412300B7BE06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83C00D701ABF412300B7BE06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83C00D721ABF412300B7BE06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hue Watch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83C00D731ABF412300B7BE06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hue Watch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		83C00D751ABF412300B7BE06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hue WatchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hue Watch.app/Hue Watch";
+			};
+			name = Debug;
+		};
+		83C00D761ABF412300B7BE06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hue WatchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hue Watch.app/Hue Watch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83C00D461ABF412300B7BE06 /* Build configuration list for PBXProject "Hue Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C00D6F1ABF412300B7BE06 /* Debug */,
+				83C00D701ABF412300B7BE06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83C00D711ABF412300B7BE06 /* Build configuration list for PBXNativeTarget "Hue Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C00D721ABF412300B7BE06 /* Debug */,
+				83C00D731ABF412300B7BE06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83C00D741ABF412300B7BE06 /* Build configuration list for PBXNativeTarget "Hue WatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C00D751ABF412300B7BE06 /* Debug */,
+				83C00D761ABF412300B7BE06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83C00D431ABF412300B7BE06 /* Project object */;
+}
